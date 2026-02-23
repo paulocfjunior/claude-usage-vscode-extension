@@ -1,0 +1,41 @@
+^D
+╭─── Claude Code v2.1.50 ──────────────────────────────────────────────────────╮
+│                                                 │ Tips for getting started   │
+│            Welcome back Paulo Junior!           │ Run /init to create a CLA… │
+│                                                 │ ────────────────────────── │
+│                                                 │ Recent activity            │
+│                        ✻                        │ No recent activity         │
+│                        |                        │                            │
+│                       ▟█▙                       │                            │
+│                     ▐▛███▜▌                     │                            │
+│                    ▝▜█████▛▘                    │                            │
+│                      ▘▘ ▝▝                      │                            │
+│                                                 │                            │
+│             Opus 4.6 · Claude Team              │                            │
+│   ~/code/clever/claude-usage-vscode-extension   │                            │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+────────────────────────────────────────────────────────────────────────────────
+❯ Try "fix lint errors"
+────────────────────────────────────────────────────────────────────────────────
+  ? for shortcuts                                                     0 tokens
+9;4;0;0;✳ Claude Code0;✳ Claude Code                                                   ✻                         |                         ▟█▙                        ▐▛   ▜▌                      ▝▜█████▛▘                       ▘▘ ▝▝                         
+
+
+❯ /usage                                                                        ──────────────────────────────────────────────────────────────────────────────── ──────────────────────────────────────────────────────────────────────────────   Settings:  Status   Config   Usage  (←/→ or tab to cycle)                   
+
+
+  Loading usage data…
+
+  Esc to cancel
+0;✳ Claude Code0;✳ Claude Code  Current session      ████████████▌                                      25% used  Rese s 8pm (America/Toronto)
+
+  Current week (all models)
+  ████                                               8% used
+  Resets Feb 27 at 7pm (America/Toronto)
+
+  Current week (Sonnet only)
+                                                     0% used
+  Resets Mar 1 at 3pm (America/Toronto)
+
+  Esc to cancel

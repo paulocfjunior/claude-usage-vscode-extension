@@ -1,0 +1,17 @@
+Opus 4.6 · Claude Team
+
+/usage
+
+  Current session
+  Resets 8pm (America/Toronto)
+  ███████                                            14% used
+
+  Current week (all models)
+  Resets Feb 27 at 7pm (America/Toronto)
+  ███▌                                               7% used
+
+  Current week (Sonnet only)
+  Resets Mar 1 at 3pm (America/Toronto)
+                                                     0% used
+
+  Esc to cancel

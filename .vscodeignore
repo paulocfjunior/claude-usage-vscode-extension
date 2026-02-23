@@ -5,3 +5,8 @@ node_modules/**
 tsconfig.json
 **/*.ts
 **/*.map
+
+**/__tests__/**
+CLAUDE.md
+
+scripts/

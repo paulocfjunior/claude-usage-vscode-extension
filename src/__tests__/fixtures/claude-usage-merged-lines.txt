@@ -1,0 +1,15 @@
+Opus 4.6 · Claude Team
+~/code/clever/claude-usage-vscode-extension
+
+/usage
+
+  Current session
+  ███████                                            14% used  Resets 8pm (America/Toronto)
+
+  Current week (all models)
+  ███▌                                               7% used  Resets Feb 27 at 7pm (America/Toronto)
+
+  Current week (Sonnet only)
+                                                     0% used  Resets Mar 1 at 3pm (America/Toronto)
+
+  Esc to cancel

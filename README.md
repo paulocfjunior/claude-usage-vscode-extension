@@ -7,26 +7,19 @@ A VS Code extension that displays your Claude API usage quota directly in the st
 ## How it looks
 
 ```
-☁ 8% 3h 30m | 1% 6d 22h
+☁ 8% 3h 30m | 1% 6d 22h | opus 5% 6d 22h
 ```
 
-Format: `[session_used%] [session_time_remaining] | [weekly_used%] [weekly_time_remaining]`
+Format: `[session_used%] [session_time] | [weekly_used%] [weekly_time] | [model_used%] [model_time]`
 
 Hover over the status bar item for detailed account info, per-quota breakdown, and cost data.
 
 ## Prerequisites
 
-This extension reads usage data from [claude-o-meter](https://github.com/MartinLoeper/claude-o-meter). You need it running in daemon mode:
+- [Claude CLI](https://docs.anthropic.com/en/docs/claude-code) installed and authenticated
+- An active Pro or Max subscription
 
-```bash
-# Install claude-o-meter (Go required)
-go install github.com/MartinLoeper/claude-o-meter@latest
-
-# Start the daemon (writes JSON every 60s)
-claude-o-meter daemon -i 60s -f ~/.cache/claude-o-meter.json
-```
-
-You must have the [Claude CLI](https://docs.anthropic.com/en/docs/claude-code) installed and authenticated with an active Pro or Max subscription.
+The extension runs `claude /usage` directly — no external tools or daemons needed.
 
 ## Installation
 
@@ -50,7 +43,7 @@ code --install-extension claude-usage-status-bar-0.0.1.vsix
 
 | Setting | Default | Description |
 |---|---|---|
-| `claudeUsage.filePath` | `~/.cache/claude-o-meter.json` | Path to the claude-o-meter JSON file |
+| `claudeUsage.claudePath` | `""` (auto-discover) | Path to the Claude CLI binary. Leave empty to find from PATH. |
 | `claudeUsage.updateIntervalSeconds` | `60` | How often to refresh usage data (minimum 10s) |
 
 ## Commands
@@ -65,6 +58,7 @@ code --install-extension claude-usage-status-bar-0.0.1.vsix
 | `⟳` (spinning) | Refreshing data |
 | `⚠` | Error reading usage data |
 | `🔑` | Claude CLI not authenticated |
+| `🛡` | Workspace not yet trusted — click to authorize |
 
 ## License
 

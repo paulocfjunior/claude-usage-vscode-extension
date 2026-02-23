@@ -2,10 +2,10 @@ import * as vscode from "vscode";
 
 const SECTION = "claudeUsage";
 
-export function getFilePath(): string {
+export function getClaudePath(): string {
   return vscode.workspace
     .getConfiguration(SECTION)
-    .get<string>("filePath", "~/.cache/claude-o-meter.json");
+    .get<string>("claudePath", "");
 }
 
 export function getUpdateIntervalMs(): number {
