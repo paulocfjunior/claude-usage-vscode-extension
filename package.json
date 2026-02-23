@@ -2,7 +2,7 @@
   "name": "claude-usage-status-bar",
   "displayName": "Claude Usage Status Bar Widget",
   "description": "Displays Claude API usage quota in the VS Code status bar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "paulocfjunior",
   "license": "MIT",
   "repository": {
